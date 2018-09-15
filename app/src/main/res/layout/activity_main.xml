@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="@dimen/padding_telas"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logoEmpresa"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/empresaId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/logoEmpresa"
+        android:layout_alignTop="@+id/servicosId"
+        android:background="@drawable/menu_empresa" />
+
+    <ImageView
+        android:id="@+id/servicosId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/logoEmpresa"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="126dp"
+        android:background="@drawable/menu_servico" />
+
+    <ImageView
+        android:id="@+id/clientesId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/logoEmpresa"
+        android:layout_below="@+id/empresaId"
+        android:layout_marginTop="@dimen/margin_menus"
+        android:background="@drawable/menu_cliente" />
+
+    <ImageView
+        android:id="@+id/contatoId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/servicosId"
+        android:layout_below="@+id/servicosId"
+        android:layout_marginTop="@dimen/margin_menus"
+        android:background="@drawable/menu_contato" />
+
+</RelativeLayout>

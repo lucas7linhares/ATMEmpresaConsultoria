@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">AtmEmpresaConsultoria</string>
+    <string name="sobre_empresa">Sobre a empresa</string>
+    <string name="lorem_ipsum">
+        Silvio Santos Ipsum vem pra l, mah voc vai pra c. Agora vai, agora vem pra lamm. Ma tem ou no tem o celular do milhouamm? Eu s acreditoammmm.... Vendoammmm. Ma voc, topa ou no topamm. Ma vejam s, vejam s.  namoro ou amizadeemm?  por sua conta e riscoamm?  bom ou no am? Patrciaaammmm... Luiz Ricardouaaammmmmm.  fcil ou no am? Mah voc mora com o papai ou com a mamem? O Raul Gil  gayam! ... Maa O Ah Ae! Ih Ih! O Raul Gil  gayamm! Valendo um milho de reaisammm. Ma quem quer dinheiroam?
+        Boca sujuam... sem vergonhuamm. Patrciaaammmm... Luiz Ricardouaaammmmmm. Mah ooooee vem pra c. Vem pra c. Boca sujuam... sem vergonhuamm. Um, dois trs, quatro, PIM, entendeuam? Ma no existem mulher feiam, existem mulher que no conhece os produtos Jequitiamm.  com voc Lombardiam. Valendo um milho de reaisammm.
+    </string>
+    <string name="servicos">Serviços</string>
+    <string name="text_consultoria">Consultoria</string>
+    <string name="text_processos">Processos</string>
+    <string name="text_acompanhamento">Acompanhamento e projetos</string>
+    <string name="text_reticencias">...</string>
+    <string name="titleClientes">Nossos Clientes</string>
+    <string name="textCliente1">Empresa de desenvolvimento de sistemas</string>
+    <string name="textCliente2">Empresa de auditoria</string>
+    <string name="titleContato">Contato</string>
+    <string name="email">E-mail: consultoria@atm.com.br</string>
+    <string name="telefone">Telefone: (11) 3333-2222</string>
+    <string name="celular">Celular: (11) 99999-8888</string>
+</resources>

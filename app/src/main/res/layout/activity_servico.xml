@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding_telas"
+    android:background="@color/white"
+    tools:context=".ServicoActivity">
+
+    <ImageView
+        android:id="@+id/detalhe_servico"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/detalhe_servico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/titleServicos"
+        android:textColor="@color/colorServicos"
+        android:layout_marginTop="@dimen/margin_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/detalhe_servico"
+        android:layout_toEndOf="@+id/detalhe_servico"
+        android:text="@string/servicos"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+    <TextView
+        android:id="@+id/consultoria"
+        android:text="@string/text_consultoria"
+        android:layout_marginTop="@dimen/margin_servicos"
+        android:layout_marginLeft="@dimen/margin_servicos"
+        android:layout_below="@id/detalhe_servico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+    <TextView
+        android:id="@+id/processos"
+        android:text="@string/text_processos"
+        android:layout_marginTop="@dimen/margin_servicos"
+        android:layout_marginLeft="@dimen/margin_servicos"
+        android:layout_below="@id/consultoria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+    <TextView
+        android:id="@+id/acompanhamento"
+        android:text="@string/text_acompanhamento"
+        android:layout_marginTop="@dimen/margin_servicos"
+        android:layout_marginLeft="@dimen/margin_servicos"
+        android:layout_below="@id/processos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+    <TextView
+        android:text="@string/text_reticencias"
+        android:layout_marginTop="@dimen/margin_servicos"
+        android:layout_marginLeft="@dimen/margin_servicos"
+        android:layout_below="@id/acompanhamento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+</RelativeLayout>

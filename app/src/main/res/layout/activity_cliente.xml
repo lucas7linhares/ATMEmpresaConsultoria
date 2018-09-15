@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding_telas"
+    android:background="@color/white"
+    tools:context=".ClienteActivity">
+
+    <ImageView
+        android:id="@+id/detalhe_clientes"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/detalhe_cliente" />
+
+    <TextView
+        android:id="@+id/titleClientes"
+        android:layout_marginTop="@dimen/margin_title"
+        android:layout_marginLeft="@dimen/margin_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/detalhe_clientes"
+        android:layout_toEndOf="@+id/detalhe_clientes"
+        android:text="@string/titleClientes"
+        android:textColor="@color/colorCliente"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+    <ImageView
+        android:id="@+id/cliente1"
+        android:layout_marginTop="@dimen/margin_clientes"
+        android:layout_marginLeft="@dimen/margin_clientes"
+        android:layout_below="@id/detalhe_clientes"
+        android:background="@drawable/cliente1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/cliente1Text"
+        android:layout_marginLeft="@dimen/margin_text_cliente"
+        android:layout_marginBottom="@dimen/margin_title"
+        android:text="@string/textCliente1"
+        android:layout_below="@id/cliente1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/cliente2"
+        android:layout_marginTop="@dimen/margin_clientes"
+        android:layout_marginLeft="@dimen/margin_clientes"
+        android:layout_below="@id/cliente1Text"
+        android:background="@drawable/cliente2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/cliente2Text"
+        android:layout_marginLeft="@dimen/margin_text_cliente"
+        android:layout_marginBottom="@dimen/margin_title"
+        android:text="@string/textCliente2"
+        android:layout_below="@id/cliente2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

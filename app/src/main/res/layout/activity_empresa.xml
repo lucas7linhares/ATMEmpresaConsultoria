@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding_telas"
+    android:background="@color/white"
+    tools:context=".EmpresaActivity">
+
+    <ImageView
+        android:id="@+id/detalhe_empresa"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/detalhe_empresa" />
+
+    <TextView
+        android:id="@+id/titleSobreEmpresa"
+        android:textColor="@color/colorEmpresa"
+        android:layout_marginTop="@dimen/margin_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/detalhe_empresa"
+        android:layout_toEndOf="@+id/detalhe_empresa"
+        android:text="@string/sobre_empresa"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+    <ScrollView
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/detalhe_empresa"
+        android:layout_width="100in"
+        android:layout_height="100in"
+        android:background="@color/lightgrey"
+        android:padding="@dimen/padding_10">
+        <TextView
+            android:text="@string/lorem_ipsum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+    </ScrollView>
+
+</RelativeLayout>

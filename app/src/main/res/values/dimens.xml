@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_menus">28dp</dimen>
+    <dimen name="padding_telas">20dp</dimen>
+    <dimen name="padding_10">10dp</dimen>
+    <dimen name="margin_servicos">20dp</dimen>
+    <dimen name="margin_title">24dp</dimen>
+    <dimen name="margin_clientes">25dp</dimen>
+    <dimen name="margin_text_cliente">65dp</dimen>
+    <dimen name="margin_title_contato">45dp</dimen>
+</resources>

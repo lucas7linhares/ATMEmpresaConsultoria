@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding_telas"
+    android:background="@color/white"
+    tools:context=".ContatoActivity">
+
+    <ImageView
+        android:id="@+id/detalhe_contato"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/detalhe_contato" />
+
+    <TextView
+        android:id="@+id/titleContato"
+        android:layout_marginTop="@dimen/margin_title_contato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/detalhe_contato"
+        android:layout_toEndOf="@+id/detalhe_contato"
+        android:text="@string/titleContato"
+        android:textColor="@color/colorContato"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+    <TextView
+        android:id="@+id/email"
+        android:text="@string/email"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/detalhe_contato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+    <TextView
+        android:id="@+id/telefone"
+        android:text="@string/telefone"
+        android:layout_marginTop="@dimen/margin_clientes"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+    <TextView
+        android:id="@+id/celular"
+        android:text="@string/celular"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/telefone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+</RelativeLayout>
